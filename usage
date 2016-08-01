@@ -1,0 +1,2 @@
+python3 basicPubSub.py -e a3upf5aqm10lfb.iot.us-east-1.amazonaws.com -r ~/rootca.crt -c ~/cert.pem.crt -k ~/private.pem.key
+

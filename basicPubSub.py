@@ -134,9 +134,9 @@ myAWSIoTMQTTClient.configureConnectDisconnectTimeout(10)  # 10 sec
 myAWSIoTMQTTClient.configureMQTTOperationTimeout(5)  # 5 sec
 
 # Connect and subscribe to AWS IoT
-print " ------------------------------------ hi"
+print (" ------------------------------------ hi")
 myAWSIoTMQTTClient.connect()
-print " ------------------------------------ bye"
+print (" ------------------------------------ bye")
 myAWSIoTMQTTClient.subscribe("sdk/test/Python", 1, customCallback)
 time.sleep(2)
 
